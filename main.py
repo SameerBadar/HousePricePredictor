@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression 
 from sklearn.model_selection import train_test_split
 pd.set_option('display.max_columns',None)
-df = pd.read_csv('C:/Users/ALI/Documents/Machine Learning/Data PreProcessing/House_Price.csv',header = 0)
+df = pd.read_csv("House_Price.csv",header = 0) 
 # here we will put 80 % of our data for training and 20 % 
 #for testing
 df['n_hos_beds'] = df['n_hos_beds'].mean()
